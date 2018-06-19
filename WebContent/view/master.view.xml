@@ -1,0 +1,32 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout"
+		controllerName="singlepageapplication.view.master" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="" id="landingPage"  showHeader="false">
+		<content>
+			<l:BlockLayout>
+				<l:BlockLayoutRow>
+					<l:BlockLayoutCell>
+					
+						<VBox id="mainContent">
+							<Title class="bigTitle" text="NYERJ FESZTIVÁLBELÉPŐT A MAGAM WEBLAPJÁN" ></Title>
+							<Text class="subTitle" text="A BELÉPÉSHEZ ADD MEG NEVED ÉS SZÜLETÉSI DÁTUMODAT" />
+						
+						<HBox>
+							<Input placeholder="Vezetéknév" />
+							<Input placeholder="Keresztnév" />
+						</HBox>
+						
+						<HBox>
+							<Input placeholder="ÉV" />
+							<Input placeholder="HÓNAP" />
+							<Input placeholder="NAP" />
+						</HBox>
+							<Button id="loginButton" text="BELÉPEK AZ OLDALRA" press="onNavToDetail" />
+						</VBox>
+
+					</l:BlockLayoutCell>
+				</l:BlockLayoutRow>
+			</l:BlockLayout>
+			
+		</content>
+	</Page>
+</core:View>

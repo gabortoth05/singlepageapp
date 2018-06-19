@@ -1,0 +1,56 @@
+.sapMFlexBoxAlignContentStretch{
+	margin: auto !important;
+}
+
+.sapMFlexItemAlignAuto{
+	margin: auto !important;
+}
+
+.bigTitle{
+	font-size: 32px !important;
+	color: #fff;
+	font-weight: 800;
+}
+
+.subTitle{
+	font-size: 25px !important;
+	color: #ffeb94;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+#master--mainContent{
+	padding-top: 5% !important;
+}
+
+#master--loginButton {
+	padding-top: 5% !important;
+
+}
+
+
+.sapMBtn:hover > .sapMBtnHoverable{
+	background-color: #156f2e !important;
+}
+
+.sapMBtnInner{
+	background: #12421f !important;
+	color: #fff;
+	border: 1px solid #12421f;
+	
+}
+
+#master--landingPage-cont{
+	background-image: url('../img/bg.JPG');
+	background-size: cover;
+	background-height: 100vh !important;
+}
+
+.content{
+	width: 100vw;
+	height: 90vh;
+	background-image: url('https://chandralynn.files.wordpress.com/2014/06/waldo4.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	
+}
